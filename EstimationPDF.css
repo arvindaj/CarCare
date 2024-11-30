@@ -1,0 +1,30 @@
+.estimation-pdf {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .estimation-pdf input {
+    margin-right: 10px;
+    padding: 8px;
+  }
+  
+  .estimation-pdf button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .estimation-pdf button:disabled {
+    background-color: #aaa;
+  }
+  
+  .estimation-pdf pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
