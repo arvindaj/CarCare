@@ -328,8 +328,8 @@ def create_job_card():
 
 # Function to send email
 def send_email(to_email, subject, body, attachment=None):
-    from_email = 'arvindxtown2010@gmail.com'
-    password = 'yzfb lcup gqkf atyx'
+    from_email = ''
+    password = ''
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     server.login(from_email, password)
